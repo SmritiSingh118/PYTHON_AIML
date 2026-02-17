@@ -14,7 +14,6 @@ def dfs(start,goal,graph,vis=None,path=None):
                 return True
     return False 
 
-graph1={'A':['B','E'],'B':['F','C','A'],'C':['B','G','D'],'D':['C','H'],
-       'E':['A','F','I'],'F':['B','G','E'],'G':['F','C','H'],
-       'H':['G','J','D'],'I':['E','J'],'J':['H','I']}
-dfs('A','J',graph1)
+graph1={'A':['B','C'],'B':['A','D','C','F'],'C':['A','F','D'],'D':['C','E','F','B'],
+       'E':['F','D','B'],'F':['B','D','E','C']}
+dfs('A','F',graph1)
