@@ -27,7 +27,7 @@ for i in range(1,nodes+1):
         value=input("enter the value:")
         n.append(value)
     graph[key]=n
-print(f"graph is:{graph3}")
+print(f"graph is:{graph}")
 start=input("enter the starting node:")
 goal=input("enter the goal node:")
-bfs(start,goal,graph)
+bfs(start,goal,graph))
