@@ -8,7 +8,7 @@ house={"type of house ":["Flat","Farmhouse","Villa","Penthouse","Apartment",
        "Cost of house":[2500000,100000000,200000000,30000000,1000000,5000000,150000000,1500000,3000000]}
 print("original Data-\n")
 df=pd.DataFrame(house)
-df
+print(df)
 print("\n")
 
 #normalization
