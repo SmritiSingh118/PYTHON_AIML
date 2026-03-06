@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-
 import pandas as pd
 
 house={"type of house ":["Flat","Farmhouse","Villa","Penthouse","Apartment",
